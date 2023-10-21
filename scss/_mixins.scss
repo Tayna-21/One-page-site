@@ -1,0 +1,5 @@
+
+@mixin adaptive-font-size($start-value, $additional-value) {
+  font-size: calc($start-value + $additional-value * (100vw / 1440));
+  font-family: $ObjectiveFont;
+}
